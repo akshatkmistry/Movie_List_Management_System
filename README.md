@@ -64,16 +64,16 @@ The database script creates two sample users:
 
 ## 🖼️ Screenshots
 ### 🔹 Dashboard 
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](screenshots/Dashboard.png)
 
 ### 🔹 Add Movie Page
-![Add Movie](screenshots/AddMovie.jpg)
+![Add Movie](screenshots/AddMovie.png)
 
 ### 🔹 Edit Movie Page
-![Edit Movie](screenshots/EditMovie.jpg)
+![Edit Movie](screenshots/EditMoive.png)
 
 ### 🔹 Login Page
-![Login](screenshots/Login.jpg)
+![Login](screenshots/Login.png)
 
 ### 🔹 Register Page
-![Register ](screenshots/Register.jpg)
+![Register ](screenshots/Register.png)
