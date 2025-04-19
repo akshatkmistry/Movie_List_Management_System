@@ -1,6 +1,6 @@
 # 🎬 Movie List Management System
 
-A simple ASP.NET Web Forms application for tracking movies you've watched or want to watch. This college mini-project demonstrates basic web development concepts using ASP.NET and MySQL.
+A simple ASP.NET Web Forms application for tracking movies you've watched or want to watch. This college mini-project demonstrates basic web development concepts using ASP.NET, ADO.NET and SQL Server.
 
 ## Features
 
