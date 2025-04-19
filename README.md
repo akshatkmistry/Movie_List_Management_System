@@ -77,3 +77,13 @@ The database script creates two sample users:
 
 ### 🔹 Register Page
 ![Register ](screenshots/Register.png)
+
+## 🤝 Contributing
+🚀 Feel free to fork the repository and submit pull requests! Contributions are welcome.  
+
+
+## 📧 Contact
+For any queries, reach out via **GitHub Issues** or email at:  
+✉️ **akshatkmistry007@gmail.com**  
+
+Happy Coding! 🎉
