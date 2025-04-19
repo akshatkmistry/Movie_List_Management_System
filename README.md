@@ -62,12 +62,18 @@ The database script creates two sample users:
 - **App_Data/DatabaseConnection.cs**: Database connection and query methods
 - **App_Data/MovieTrackerDB.sql**: Database creation script
 
-## Learning Outcomes
+## 🖼️ Screenshots
+### 🔹 Dashboard 
+![Dashboard](screenshots/dashboard.png)
 
-This project demonstrates:
-- Creating a web application with ASP.NET Web Forms
-- Implementing user authentication
-- Database CRUD operations using ADO.NET
-- Form validation and data handling
-- Responsive UI design with Bootstrap
-- Session management
+### 🔹 Add Movie Page
+![Add Movie](screenshots/AddMovie.jpg)
+
+### 🔹 Edit Movie Page
+![Edit Movie](screenshots/EditMovie.jpg)
+
+### 🔹 Login Page
+![Login](screenshots/Login.jpg)
+
+### 🔹 Register Page
+![Register ](screenshots/Register.jpg)
