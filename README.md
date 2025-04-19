@@ -1,4 +1,4 @@
-# Movie Tracker Application
+# 🎬 Movie List Management System
 
 A simple ASP.NET Web Forms application for tracking movies you've watched or want to watch. This college mini-project demonstrates basic web development concepts using ASP.NET and MySQL.
 
@@ -10,56 +10,49 @@ A simple ASP.NET Web Forms application for tracking movies you've watched or wan
 - Mark movies as watched, unwatched, or plan to watch
 - Rate movies on a scale of 1-5
 - Dashboard with statistics about your movie collection
-- Search functionality to find specific movies
+- Filter functionality by Watch Status
 
 ## Technologies Used
 
-- ASP.NET Web Forms (C#)
-- MySQL Database
-- ADO.NET for database operations
-- Bootstrap 5 for responsive UI
-
-## Setup Instructions
-
-### Prerequisites
-
+- ASP.NET Web Forms (.aspx, .aspx.cs)
+- ADO.NET (for SQL Server communication)
+- SQL Server (local DB with `Users` and `Movies` tables)
+- HTML/CSS/JS (for styling and basic interactivity)
 - Visual Studio 2022
-- MySQL Server installed and running
-- MySQL Connector/NET (installed via NuGet)
 
-### Database Setup
+## ⚙️ Setup Instructions
 
-1. Open MySQL Workbench or any MySQL client
-2. Run the SQL script located at `MovieTrackerApp/App_Data/MovieTrackerDB.sql`
-3. This will create the database and required tables with sample data
+### 📦 Step 1: Initialize SQL Server Database
 
-### Connection String
+1. Open **SQL Server Management Studio** or any SQL client.
+2. Run the SQL script located at: `App_Data/MovieTrackerDB.sql`
 
-The application is configured to connect to MySQL with these default settings:
-- Server: localhost
-- Database: MovieTrackerDB
-- Username: root
-- Password: password
+This will create the `MovieTrackerDB` database along with `Users` and `Movies` tables, and insert sample data.
 
-If your MySQL setup is different, update the connection string in:
+
+### 🔧 Step 2: Update the Connection String
+
+Ensure your connection string matches your SQL Server setup.
+
+Update **both** of the following files:
 - `Web.config`
 - `App_Data/DatabaseConnection.cs`
 
-### Running the Application
+### ▶️ Running the Application
 
 1. Open the solution in Visual Studio 2022
 2. Build the solution (this will restore NuGet packages)
-3. Make sure MySQL is running
+3. Make sure your SQL Server service is running.
 4. Press F5 or click the Run button to start the application
 5. The application will open in your default web browser
 
-### Default Login
+### 🔐 Default Login
 
 The database script creates two sample users:
 - Username: admin, Password: admin123
 - Username: user1, Password: user123
 
-## Project Structure
+##  Project Structure
 
 - **Login.aspx**: User authentication page
 - **Register.aspx**: New user registration
